@@ -1,0 +1,17 @@
+
+name = "bitter-river-06ec"
+main = "template/src/index.ts"         # or index.js depending on your code
+compatibility_date = "2025-06-06"
+
+assets = { directory = "node_modules/r2-explorer/dashboard", binding = "ASSETS", html_handling = "auto-trailing-slash", not_found_handling = "single-page-application" }
+
+
+[[r2_buckets]]
+binding = 'daughter'
+bucket_name = 'tongtong'
+
+[[r2_buckets]]
+binding = 'mummy'
+bucket_name = 'suyee'
+preview_bucket_name = 'suyee'
+
