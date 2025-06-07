@@ -4,7 +4,7 @@ import { R2Explorer } from "r2-explorer";
 export default R2Explorer({
 	readonly: true,
 	basicAuth: {
-	  username: 'luffy',
-	  password: 'luffy,.894684862'
-	}
+		username: "luffy",
+		password: "luffy,.894684862",
+	  },
 });
