@@ -1,10 +1,15 @@
-name = "r2-explorer"
-compatibility_date = "2024-11-06"
-main = "src/index.ts"
+
 assets = { directory = "node_modules/r2-explorer/dashboard", binding = "ASSETS", html_handling = "auto-trailing-slash", not_found_handling = "single-page-application" }
 
-# Bind R2 Buckets to your application.
-# Docs: https://r2explorer.com/getting-started/add-r2-buckets/
+name = "bitter-river-06ec"
+main = "src/index.ts"         # or index.js depending on your code
+compatibility_date = "2025-06-06"
+
 [[r2_buckets]]
-binding = "BUCKET"
-bucket_name = "bucket"
+binding = 'daughter'
+bucket_name = 'tongtong'
+
+[[r2_buckets]]
+binding = 'mummy
+bucket_name = 'suyee'
+preview_bucket_name = 'suyee'
